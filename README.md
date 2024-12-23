@@ -4,6 +4,12 @@ Converty is an image processing & conversion CLI for optimizing, compressing, re
 
 ---
 
+## Example
+
+![Converty Screenshot](./assets/Converty.png)
+
+---
+
 ## Update CLI for Code Changes
 
 1. Run Typescript compiler: `npx tsc`
