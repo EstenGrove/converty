@@ -1,0 +1,31 @@
+{
+	"name": "image-converter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"bin": {
+		"converty": "./dist/index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc",
+		"preinstall": "npm run build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/chalk": "^2.2.4",
+		"@types/inquirer": "^9.0.7",
+		"@types/node": "^22.10.2",
+		"@types/sharp": "^0.32.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.7.2"
+	},
+	"dependencies": {
+		"chalk": "^5.4.1",
+		"inquirer": "^12.3.0",
+		"sharp": "^0.33.5"
+	}
+}
